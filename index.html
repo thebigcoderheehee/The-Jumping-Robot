@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>The Jumping Robot Game</h1>
+    <div id="score">Score: <span id="score-value">0</span> </div>
+    <div id="game-items">
+        <div id="robot"></div>
+        <div id="obstacles"></div>
+        <div id="highscore">High Score: <span id="highscore-value">0 </span></div>
+        <div id="road"></div>
+    </div>
+    <button onclick="Jump()" id="jump">Jump</button>
+    <audio src="point sound.mp3" preload="auto" id="point"></audio>
+</body>
+
+<script src="script.js"></script>
+
+</html>
