@@ -86,4 +86,7 @@ body {
     #highscore {
       right: 120px;
     }
+    #jump {
+       font-size: 30px;
+    }
 }
